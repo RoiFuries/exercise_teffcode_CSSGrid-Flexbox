@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #383838;
+}
+.containerBoss{
+    display: grid;
+    grid-template-rows: 150px 600px 120px 100px;
+    width: 800px;
+    /* height: 950px; */
+    background-color: #EFEFEF;
+    border-radius: 20px;
+}
+.containerBoss__child-1{
+    /* background-color: plum; */
+    display: flex;
+    align-items: center;
+
+}
+.containerBoss__child-1--thum{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+
+}
+.containerBoss__child-1--thum img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.containerBoss__child-1--item h1{
+    font-size: 30px;
+    margin: 0px;
+    color: #444444;
+    text-transform: capitalize;}
+
+.containerBoss__child-1--item h2{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #444444;
+    text-transform: capitalize;}
+
+.containerBoss__child-2--media{
+    margin: 0;
+}
+
+.containerBoss__child-2--media img{
+    width: 100%;
+    height: 600px; 
+    /* Cuál erá la propiedad para que no se deformara la imágen ? 
+    Cómo puedo poner la imagen full sin que se altere? */
+}
+
+.containerBoss__child-3{
+    /* background-color: purple; */
+}
+.containerBoss__child-3--desc{
+    /* background-color: red; */
+    margin: 35px 30px;
+    font-size: 20px;
+}
+.containerBoss__child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 30px;
+}
+.containerBoss__child--actions{
+/* background-color: salmon; */
+}
+.containerBoss__child--actions a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #8529EF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.containerBoss__child--action2{
+    margin-left: 40px;
+}
+.containerBoss__child--social{
+    /* display: flex;
+    justify-content: flex-end; */
+    height: 60px;
+}
+.love{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 180px;
+    height: 100%;
+    /* background-color: darkmagenta; */
+}
+.love img{
+    width: 55px;
+    height: 55px;
+
+}
+.share{
+
+}
