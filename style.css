@@ -2,11 +2,46 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     height: 100vh;
     background-color: #383838;
 }
+.card{
+    margin: 0;
+    width: 800px;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: darkorange; */
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fa5400;
+    border-radius: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.btnContainer img{
+    margin: 0;
+    width:60%;
+    /* height: 100%; */
+}
+
+
+
+
+
+
+
+
 .containerBoss{
     display: grid;
     grid-template-rows: 150px 600px 120px 100px;
